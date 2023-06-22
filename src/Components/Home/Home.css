@@ -1,0 +1,8 @@
+#Home{
+  margin-top: 0px;
+}
+.crouselImg{
+width: 100%;
+filter: brightness(50%);
+/* z-index: -99; */
+}

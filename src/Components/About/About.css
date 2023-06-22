@@ -1,0 +1,60 @@
+#About{
+    margin-top: 5px;
+}
+.leftcard{
+    padding: 7px;
+}
+.about_heading{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+.about_cardtext{
+    /* padding: 2px 5px 0px 5px; */
+    width: auto;
+    font-family: intern;
+}
+.about_img1{
+height: auto;
+max-width: 100%;
+}
+.icon_header{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: intern;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 0%;
+    padding: 0%;
+}
+.icons_card{
+    max-width: 18rem;
+    background-color: lightgray;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.car_card{
+    margin-top: 5rem;
+}
+.contact_card_{
+    margin-top: 5rem;
+}
+.gallery_header{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: intern;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgba(211, 211, 211, 0.196);
+}
+.carousel-fade{
+    border: 1px solid gray;
+    padding: .5px;
+    height: auto;
+    max-width: 18rem;
+    margin-top: 20%;
+}

@@ -1,0 +1,77 @@
+.Navbar {
+ padding: 10px 5% 10px 5%;
+ background-color:transparent;
+  z-index: 100;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.logo_img {
+  max-height: 80px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.NavbarBrand {
+  /* grid-template-columns: 10rem 1fr 1fr 1fr 10rem; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brandName{
+  font-size: 1.5rem;
+  font-family: intern;
+  font-weight: bold;
+  color: aliceblue;
+  margin-top: 10px;
+ }
+.toggle{
+  color: aliceblue;
+  background-color: aliceblue;
+}
+
+.nav_links {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: internal;
+}
+
+.links {
+  color: aliceblue;
+  margin-left: 30px;
+  font-size: 26px;
+}
+.links:hover{
+  color: #fff;
+}
+.links:active{
+  color: #fff;
+}
+.links:focus{
+  color: #fff;
+}
+
+.nav_btn {
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  padding: 2px 25px 2px 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: .9rem;
+
+}
+
+/* for-mobile-view */
+@media only screen and (max-width: 480px) {
+  .links {
+    margin-left: 0px;
+  }
+  .logo_img {
+    max-height: 38px;
+    width: 100%;
+  
+  }
+}

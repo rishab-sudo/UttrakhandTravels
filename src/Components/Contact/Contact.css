@@ -1,0 +1,193 @@
+#Contact {
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .contact_heading_div {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact_us {
+    padding: 5px;
+    border-radius: 8px;
+    font-size: .8rem;
+    text-align: center;
+    max-width: 26ch;
+    margin: auto;
+    color: #5842BC;
+    background: linear-gradient(80deg, #F0EFF5 0%, #F0EFF5 100%);
+  
+  }
+  
+  .contact_heading {
+    max-width: 25ch;
+    margin-top: 1rem;
+  }
+  
+  .contact_header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0px;
+    height: auto;
+    width: 100%;
+    padding: auto;
+    margin: 2.8rem 0px 2rem 0px;
+    border-radius: 120px;
+    font-weight: bold;
+    background: rgba(211, 211, 211, 0.056);
+    ;
+  }
+  
+  .flex2 {
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+  
+  .mssg_img {
+    margin-top: 50px;
+  }
+  
+  .a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .form_container {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(80deg, #F0EFF5 0%, #F0EFF5 100%);
+    border-radius: 35px;
+    display: grid;
+    align-items: center;
+    padding: 7rem 10px 8rem 10px;
+    margin: auto;
+  
+  }
+  
+  .col-1 {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .col-2 {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .input_lables {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .mssg_input_lables {
+    margin-left: 245px;
+    margin-bottom: 2px;
+  }
+  
+  .input_fields {
+    border: none;
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 10px;
+  
+  }
+  
+  .mssg_input_fields {
+    border: none;
+    height: 100px;
+    max-height: 150px;
+    width: 825px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 242PX;
+  }
+  
+  .submit_btndiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit_btn {
+    margin-top: 2rem;
+    background-color: #5842BC;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.0rem;
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+  
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .contact_header {
+      border-radius: 0px;
+      background: none;
+    }
+  
+    .flex2 {
+      margin: 15px;
+      background: linear-gradient(80deg, #F0EFF5 0%, #F0EFF5 100%);
+      ;
+    }
+  
+    .form_container {
+      padding: 4rem 10px 5rem 10px;
+      margin: auto;
+  
+    }
+  
+    .input_fields {
+      width: 95vw;
+    }
+  
+    .mssg_input_fields {
+  
+      margin-left: 0PX;
+      width: 95vw;
+    }
+  
+    .mssg_input_lables {
+      margin-left: 5px;
+    }
+  }
+  
+  @media screen and (min-width: 768px)and (max-width : 1024px) {
+    .input_fields {
+      width: 90vw;
+    }
+  
+    .mssg_input_fields {
+      margin-left: 5px;
+      width: 90vw;
+    }
+  
+    .col-1 {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .col-2 {
+      display: flex;
+      justify-content: center;
+    }
+  }
